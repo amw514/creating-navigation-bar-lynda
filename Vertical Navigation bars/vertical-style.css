@@ -1,3 +1,14 @@
+nav{
+    border: 1px solid red;
+    margin: 1rem auto;
+    width: 50%;
+}
+nav li{
+    padding: 0.5rem;
+}
+nav li:hover{
+    background-color: aquamarine;
+}
 nav ul {
     list-style-type: none;
     margin: 0;
