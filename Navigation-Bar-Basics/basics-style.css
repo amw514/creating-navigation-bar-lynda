@@ -3,3 +3,25 @@ nav ul {
     margin: 0;
     padding: 0;
 }
+/* 
+
+Five possible states of links in order
+
+:link    -----     before you visited a link
+:visited--------   you have viewed the site before
+:focus  ------     after you click link
+:hover  --------   when the curser will be on link
+:active  -------    after the link is clicked before the page load
+
+*/
+nav a {
+    color: #00bff3;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+nav a:hover{
+    color: #ff583d;
+    
+}
