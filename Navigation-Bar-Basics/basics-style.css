@@ -1,0 +1,15 @@
+* {
+    border: 2px solid red;
+}
+nav {
+    border: 6px solid green;
+}
+ul{ 
+    border: 4px solid black;
+}
+li {
+    border:  2px dotted red;
+}
+a {
+    background-color: yellow;
+}
