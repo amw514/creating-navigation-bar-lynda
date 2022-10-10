@@ -3,12 +3,7 @@ nav{
     margin: 1rem auto;
     width: 50%;
 }
-nav li{
-    padding: 0.5rem;
-}
-nav li:hover{
-    background-color: aquamarine;
-}
+
 nav ul {
     list-style-type: none;
     margin: 0;
@@ -26,12 +21,15 @@ Five possible states of links in order
 
 */
 nav a {
+    display: block;
     color: #00bff3;
     text-decoration: none;
     font-size: 1.5rem;
     font-weight: 600;
+    padding: 0.5rem;
 }
 
 nav a:hover{
-    color: #ff583d;
+    color: #7aff3d;
+    background-color: #00bff3;
 }
