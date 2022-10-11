@@ -27,21 +27,28 @@ nav a {
     text-decoration: none;
     font-size: 1.5rem;
     font-weight: 600;
-    padding: 0.5rem;
+    padding: 0.5rem 1rem;
+}
+nav a:focus{
+    background-color: #F0C808;
+    color: black;
+
 }
 
 nav a:hover{
-    color: #45b313;
-    background-color: #00bff3;
+    color: #ff583d;
+    background-color: #f0c808;
 }
 
 .active {
+    /* color: #FF583D; */
     background-color: cadetblue;
     border-top: 3px solid black;
     border-bottom: 3px solid black;
     
+    
 }
 .active:hover{
-     color: #7aff3d;
+     color: #ff583d;
     background-color: #00bff3;
 }
