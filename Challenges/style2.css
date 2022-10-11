@@ -7,14 +7,13 @@ body{
 nav{
     border: 3px solid  #0966C2;
     margin: 0;
-    width: 25%;
-    height: 100vh;
 }
 nav ul{
-
     margin: auto;
     padding: 0;
     list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
 }
 nav a{
     display: block;
@@ -32,3 +31,10 @@ nav a:hover{
 a:hover i{
 color: #f3ba64;
 }
+nav li:first-child{
+margin-right: auto;
+color: #0966C2;
+font-size: 3rem;
+padding: 3px;
+}
+
