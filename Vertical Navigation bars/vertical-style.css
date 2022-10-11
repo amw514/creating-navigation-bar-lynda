@@ -3,6 +3,8 @@ nav{
     margin: 1rem auto;
     width: 50%;
     background-color: #eee;
+    background-image: url("https://assets.codepen.io/296057/lil-graydots.png");
+
 }
 
 nav ul {
@@ -38,6 +40,8 @@ nav a:focus{
 nav a:hover{
     color: #ff583d;
     background-color: #f0c808;
+    background-image: url("https://assets.codepen.io/296057/lil-yellowdots.png");
+
 }
 
 .active {
@@ -45,10 +49,11 @@ nav a:hover{
     background-color: cadetblue;
     border-top: 3px solid black;
     border-bottom: 3px solid black;
-    
+    background-image: url("https://assets.codepen.io/296057/lil-bluedots.png");
+
     
 }
-.active:hover{
+/* .active:hover{
      color: #ff583d;
     background-color: #00bff3;
-}
+} */
